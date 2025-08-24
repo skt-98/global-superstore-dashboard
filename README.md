@@ -1,59 +1,57 @@
-📊 Global Superstore Dashboard (2011–2014) | Sales & Profit Trends
+# 🌍 Global Superstore Dashboard (2011–2014)
 
-📌 Project Overview
+**Power BI** dashboard analyzing **Sales & Profit Trends** by Market, Segment, Country, and Product Sub-Category.  
+Designed for executive review and category management.
 
-This project is an interactive Power BI dashboard built using the Global Superstore dataset.
-The dashboard provides insights into Sales & Profit trends across markets, segments, categories, and countries from 2011–2014.
+![Dashboard Cover](assets/img/cover.png)
 
-It is designed to answer key business questions such as:
-Which regions and countries contribute the most to sales & profit?
-What are the top-performing product categories and sub-categories?
-Which customer segments drive revenue?
-How do sales & profits trend over time?
-Which cities are most profitable?
+## 🔎 Overview
+This interactive report answers:
+- Which **markets/segments** drive sales and profit?
+- Which **countries** show strong **profit ratios** despite smaller sales?
+- Which **sub-categories** are **loss-making** (e.g., Tables) and require action?
+- How do trends evolve **year/month** with quick filters?
 
-🖼️ Dashboard Preview
-🔹 Main Dashboard View
+**Tech:** Power BI Desktop · DAX · Data Modeling · Visual Design
 
-🔹 Filtered by Market & Year
+## 📈 Key Insights
+- **APAC & Europe** lead by sales (~28% each). **USCA** remains strong at ~19.5%.
+- **Consumer** segment contributes **>50%** of revenue.
+- **United States** tops sales ($1.79M), while **China (21%)** and **UK (22%)** deliver strong **profit ratios**.
+- **Tables** sub-category is **unprofitable (–$46.5K)** → review price, discount, and shipping.
+- **Top cities** (NYC, LA, Seattle, Manila, Philadelphia) drive concentrated revenue.
 
-🔹 Deep Dive into Sub-Category Performance
+## 🧭 Report Structure
+- **KPI Strip:** Total Sales, Profit, Profit Ratio
+- **Trend Analysis:** Sales vs Profit toggle with Year/Month slicers
+- **Market & Segment Donuts:** Clean, color-coded share comparison
+- **Sales by Country:** Sales + Profit Ratio with conditional formatting
+- **Sales vs Profit by Sub-Category:** Bar + variance bars + profit ratio
+- **Top 5 Cities:** Sales contribution
+- **Category by Selected City:** Category breakdown after city selection
 
-🔹 Technology Category Focus
+## 🗂 Files
+- `pbix/Global-Superstore-Dashboard.pbix` – Power BI report (tracked with Git LFS)
+- `assets/img/` – Screenshots for quick preview
+- `assets/gif/demo.gif` – Short demo (optional)
+- `docs/CaseStudy.md` – Extended write-up (optional)
+- `data/` – (Optional) sample or dictionary
 
-⚙️ Tech Stack
-Power BI – for data visualization and dashboard creation
-Global Superstore Dataset – sample dataset containing orders, returns, and people data
+## ▶️ How to Open
+1. Download `pbix/Global-Superstore-Dashboard.pbix`
+2. Open in **Power BI Desktop (latest)**
 
-🚀 Usage
-Clone this repository:
-git clone https://github.com/skt-98/global-superstore-dashboard.git
-Open the .pbix file in Power BI Desktop.
+## 🧱 Data & Modeling
+- Dataset: **Global Superstore (2011–2014)** (public educational dataset)
+- Modeling: Cleaned categories, created date table, standardized region mapping
+- DAX:
+  - `Profit Ratio = DIVIDE([Total Profit], [Total Sales])`
+  - `Total Sales = SUM(Sales[Sales])`
+  - `Total Profit = SUM(Sales[Profit])`
 
-Explore the dashboard using filters for:
-Year
-Month
-Market
-Category
+## 📜 License
+This repository is released under the [MIT License](LICENSE).
 
-📂 Repository Structure
-global-superstore-dashboard/
-│── images/               # Screenshots of the dashboard
-│── GlobalSuperstore.pbix # Power BI dashboard file
-│── README.md             # Project documentation
+---
 
-✨ Key Insights
-US & Europe dominate sales and profit contribution.
-Technology is the most profitable category, while some sub-categories (like Tables & Machines) show losses.
-Consumer Segment contributes the highest revenue share.
-Seasonal trends show strong year-end sales peaks.
-
-👤 Author
-Sai Krishna Tiruveedhula
-💼 Data Analyst
-📍 India
-
-🌐 LinkedIn
- | Portfolio
-
-👉 This project is part of my Data Analytics Portfolio, showcasing Power BI skills in designing dashboards and uncovering insights.
+*Built by Sai Krishna Tiruveedhula — Data Analyst @ TCS | Power BI & Analytics.*
