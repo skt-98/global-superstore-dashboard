@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Recordings/cache
+*.mp4
+*.zip
+*.tmp
+
+# Power BI autosave files
+*AutoRecovery*.pbix
