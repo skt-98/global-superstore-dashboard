@@ -48,12 +48,16 @@ This interactive report answers:
   - `Total Sales = SUM(Sales[Sales])`
   - `Total Profit = SUM(Sales[Profit])`
 
+## ▶️ How to Use
+![Dashboard Cover](assets/how-to-use/how-to-use.gif)
+
 ## 📜 License
 This repository is released under the [MIT License](LICENSE).
 
 ---
 
 *Built by Sai Krishna Tiruveedhula — Data Analyst | Power BI & Analytics.*
+
 
 
 
