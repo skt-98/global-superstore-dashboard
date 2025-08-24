@@ -3,7 +3,7 @@
 **Power BI** dashboard analyzing **Sales & Profit Trends** by Market, Segment, Country, and Product Sub-Category.  
 Designed for executive review and category management.
 
-![Dashboard Cover](assets/img/cover.png)
+![Dashboard Cover](assets/img/Global-Superstore-Dashboard-Overiew.png)
 
 ## 🔎 Overview
 This interactive report answers:
@@ -33,13 +33,12 @@ This interactive report answers:
 ## 🗂 Files
 - `pbix/Global-Superstore-Dashboard.pbix` – Power BI report (tracked with Git LFS)
 - `assets/img/` – Screenshots for quick preview
-- `assets/gif/demo.gif` – Short demo (optional)
-- `docs/CaseStudy.md` – Extended write-up (optional)
-- `data/` – (Optional) sample or dictionary
+- `docs/CaseStudy.md` – Extended write-up
+- `data/` – sample
 
 ## ▶️ How to Open
 1. Download `pbix/Global-Superstore-Dashboard.pbix`
-2. Open in **Power BI Desktop (latest)**
+2. Open in **Power BI Desktop**
 
 ## 🧱 Data & Modeling
 - Dataset: **Global Superstore (2011–2014)** (public educational dataset)
@@ -54,4 +53,5 @@ This repository is released under the [MIT License](LICENSE).
 
 ---
 
-*Built by Sai Krishna Tiruveedhula — Data Analyst @ TCS | Power BI & Analytics.*
+*Built by Sai Krishna Tiruveedhula — Data Analyst | Power BI & Analytics.*
+
